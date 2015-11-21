@@ -1,0 +1,29 @@
+{
+  "name": "nedb-usage",
+  "version": "1.0.0",
+  "description": "This is testing the nedb embeded database with nodejs",
+  "main": "/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupamroy/nedb-usage.git"
+  },
+  "keywords": [
+    "nedb",
+    "test",
+    "embeded",
+    "db"
+  ],
+  "author": "Rupam Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupamroy/nedb-usage/issues"
+  },
+  "homepage": "https://github.com/rupamroy/nedb-usage#readme",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "nedb": "^1.4.0"
+  }
+}
