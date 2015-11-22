@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rupamroy/nedb-usage#readme",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "bunyan": "^1.5.1",
     "express": "^4.13.3",
     "nedb": "^1.4.0",

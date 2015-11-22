@@ -1,7 +1,8 @@
 angular.module('myApp')
     .factory('adxService', function ($http) {
         return {
-            getData: getData
+            getData: getData,
+            findByDateTime: findByDateTime
         };
 
 
@@ -9,5 +10,11 @@ angular.module('myApp')
             return $http.get('/index');
         }
 
+        function findByDateTime(from, to) {
+            return $http.post('/find', {
+                fromTime: from,
+                toTime: to
+            });
+        }
 
     });
