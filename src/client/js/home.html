@@ -1,0 +1,18 @@
+<div>
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="txtFrom">From</label>
+            <input type="datetime-local" class="form-control" id="txtFrom" placeholder="Enter From Date Time" required>
+        </div>
+        <div class="form-group">
+            <label for="txtTo">To</label>
+            <input type="datetime-local" class="form-control" id="txtTo" placeholder="Enter To Date Time" required>
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+    </form>
+
+
+    <div ui-grid="{ data: adxData }"></div>
+
+
+</div>

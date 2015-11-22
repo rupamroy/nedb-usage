@@ -26,6 +26,8 @@ function findAll(callback){
     });
 }
 
-function findByDateTime(from, to) {
-
+function findByDateTime(from, to, callback) {
+    db.find({$and: [{time: {$gte: from}}, {time : {$lt: to}}]}, function(err, docs){
+       callback(err, docs);
+    });
 }

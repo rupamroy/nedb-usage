@@ -24,6 +24,8 @@
   "homepage": "https://github.com/rupamroy/nedb-usage#readme",
   "dependencies": {
     "bunyan": "^1.5.1",
-    "nedb": "^1.4.0"
+    "express": "^4.13.3",
+    "nedb": "^1.4.0",
+    "serve-static": "^1.10.0"
   }
 }

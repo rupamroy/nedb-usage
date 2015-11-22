@@ -9,7 +9,7 @@ var log = bunyan.createLogger({
         },
         {
             level: 'error',
-            path: '/var/tmp/myapp-error.log'  // log ERROR and above to a file
+            path: './nedb.log'  // log ERROR and above to a file
         }
     ]
 });

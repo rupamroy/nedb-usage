@@ -1,0 +1,32 @@
+{
+  "name": "nedb-usage",
+  "description": "This is testing the nedb embeded database with nodejs",
+  "main": "/src/server/server.js",
+  "authors": [
+    "Rupam Roy"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "nedb",
+    "test",
+    "embeded",
+    "db"
+  ],
+  "homepage": "https://github.com/rupamroy/nedb-usage",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "angular-ui-grid": "~3.0.7"
+  }
+}
