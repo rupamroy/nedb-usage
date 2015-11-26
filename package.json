@@ -26,6 +26,7 @@
     "body-parser": "^1.14.1",
     "bunyan": "^1.5.1",
     "express": "^4.13.3",
+    "lodash": "^3.10.1",
     "nedb": "^1.4.0",
     "serve-static": "^1.10.0"
   }

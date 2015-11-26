@@ -10,7 +10,7 @@
             enableSorting: true,
             columnDefs: [
                 {name: 'Id', field: '_id'},
-                {name: 'Data', field: 'uid'},
+                {name: 'Data', field: 'data'},
                 {name: 'Time', field: 'time', cellFilter: 'date:\'yyyy-MM-dd hh:mm:ss a\''}
             ],
             enableGridMenu: true,

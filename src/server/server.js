@@ -3,6 +3,7 @@ var repo = require('./dbRepository');
 var log = require('./logger');
 var express = require('express');
 var bodyParser = require('body-parser');
+var _ = require('lodash');
 
 app = express();
 serveStatic = require('serve-static');
@@ -35,8 +36,29 @@ app.post('/find', function (req, res) {
         }
 
         res.send(docs);
-
     });
+});
+
+app.post('/create', function(req, res){
+   var doc= req.body;
+   if(doc.data){
+       if(doc.time){
+           if(!_.isDate(doc.time)){
+               doc.time = Date.now();
+           }
+       }
+       else{
+           doc.time = Date.now();
+       }
+       repo.insert(doc, function(newDoc){
+           res.send(newDoc);
+       });
+   }
+   else{
+       res.send(400);
+   }
+   
+    
 });
 
 
