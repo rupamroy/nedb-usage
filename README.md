@@ -16,7 +16,7 @@ Open [Postman](https://www.getpostman.com/)
 
 Create some data into nedb by posting any data of your choice 
 
-Post JSON data to http://localhost:3000
+Post JSON data to http://localhost:3000/create
 
 Body: 
 ```json
